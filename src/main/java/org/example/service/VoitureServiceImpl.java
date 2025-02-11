@@ -10,9 +10,6 @@ public class VoitureServiceImpl implements IVoitureService{
     public void createVoiture(Voiture voiture) {
 
         System.out.println("la voiture est ok du point de vue métier");
-
-
-
         IDaoVoiture daoVoiture= new DaoVoitureImpl();
         daoVoiture.createVoiture(voiture);
     }
