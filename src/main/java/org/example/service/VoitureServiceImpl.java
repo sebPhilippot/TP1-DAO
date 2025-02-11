@@ -13,7 +13,7 @@ public class VoitureServiceImpl implements IVoitureService{
 
 
 
-        IDaoVoiture daoVoiture= new DaoVoitureImpl()
+        IDaoVoiture daoVoiture= new DaoVoitureImpl();
         daoVoiture.createVoiture(voiture);
     }
 }
